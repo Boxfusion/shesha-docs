@@ -20,8 +20,14 @@ The connection string will be: `Server=localhost,1433;Database=SheshaDB;User Id=
 
 The steps for creating the database are beyond the scope of this tutorial.
 
-## Running the Application
+## Configuring the database
+
+There is an empty database called *Shesha.bak* in the *db* folder directory of the project that you will need to use to restore the default Shesha Database.
 
 Once you have created a database and it is up and running you will need to go into the *ShaCompanyName.ShaProjectName.Web.Host > appsettings.json* and change your Default connection string to the connection for the database you created. In our case it will be: `Server=localhost,1433;Database=SheshaDB;User Id=sa;Password=n0-hack.;MultipleActiveResultSets=True`
 
 ![appsettings.json screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/appsettings-json-screenshot.png?raw=true)
+
+## Running the Application
+
+In order to run the project you will need to right-click and set the `ShaCompanyName.ShaProjectName.Web.Host` project as the starter project and then click Run.
