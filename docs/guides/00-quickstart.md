@@ -16,8 +16,12 @@ In the case above we have setup our sql instance with the database system admini
 
 Make sure you create a database that you will use, in this case we have created a database called `SheshaDB`
 
-The connection string will be:
-
-`Server=localhost,1433;Database=Shesha;User Id=sa;Password=n0-hack.;MultipleActiveResultSets=True`
+The connection string will be: `Server=localhost,1433;Database=SheshaDB;User Id=sa;Password=n0-hack.;MultipleActiveResultSets=True`
 
 The steps for creating the database are beyond the scope of this tutorial.
+
+## Running the Application
+
+Once you have created a database and it is up and running you will need to go into the *ShaCompanyName.ShaProjectName.Web.Host > appsettings.json* and change your Default connection string to the connection for the database you created. In our case it will be: `Server=localhost,1433;Database=SheshaDB;User Id=sa;Password=n0-hack.;MultipleActiveResultSets=True`
+
+![appsettings.json screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/appsettings-json-screenshot.png?raw=true)
