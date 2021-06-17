@@ -87,11 +87,11 @@ Make sure you are running this command in the folder that you downloaded `Shesha
 
 === "Bash"
 ``` shell
-sudo docker cp wwi.bak shesha-mssql19:/var/opt/mssql/backup
+docker cp Shesha.bak shesha-mssql19:/var/opt/mssql/backup
 ```
 === "Powershell"
 ``` shell
-docker cp wwi.bak shesha-mssql19:/var/opt/mssql/backup
+docker cp Shesha.bak shesha-mssql19:/var/opt/mssql/backup
 ```
 
 ## Confirm Logical File Names
@@ -105,27 +105,27 @@ Before restoring the backup, it is important to know the logical file names and 
 
 === "Bash"
 ``` shell
-sudo docker exec -it shesha-mssql19 /opt/mssql-tools/bin/sqlcmd -S localhost \
+docker exec -it shesha-mssql19 /opt/mssql-tools/bin/sqlcmd -S localhost \
    -U SA -P '<YourNewStrong!Passw0rd>' \
-   -Q 'RESTORE FILELISTONLY FROM DISK = "/var/opt/mssql/backup/wwi.bak"' \
+   -Q 'RESTORE FILELISTONLY FROM DISK = "/var/opt/mssql/backup/Shesha.bak"' \
    | tr -s ' ' | cut -d ' ' -f 1-2
 ```
 === "Powershell"
 ``` shell
 docker exec -it shesha-mssql19 /opt/mssql-tools/bin/sqlcmd -S localhost `
    -U SA -P "<YourNewStrong!Passw0rd>" `
-   -Q "RESTORE FILELISTONLY FROM DISK = '/var/opt/mssql/backup/wwi.bak'"
+   -Q "RESTORE FILELISTONLY FROM DISK = '/var/opt/mssql/backup/Shesha.bak'"
 ```
 
 You should see output similar to the following:
 
 ``` shell
-LogicalName   PhysicalName
-------------------------------------------
-WWI_Primary   D:\Data\WideWorldImporters.mdf
-WWI_UserData   D:\Data\WideWorldImporters_UserData.ndf
-WWI_Log   E:\Log\WideWorldImporters.ldf
-WWI_InMemory_Data_1   D:\Data\WideWorldImporters_InMemory_Data_1
+LogicalName PhysicalName
+--------------------------
+ABPTest e:\Sql2019\Dev\Data\Shesha.mdf
+ABPTest_log e:\Sql2019\Dev\Data\ABPTest_log.ldf
+
+(2 rows
 ```
 
 ## Restore Database
@@ -134,43 +134,23 @@ Call the RESTORE DATABASE command to restore the database inside the container. 
 
 === "Bash"
 ``` shell
-sudo docker exec -it shesha-mssql19 /opt/mssql-tools/bin/sqlcmd \
+docker exec -it shesha-mssql19 /opt/mssql-tools/bin/sqlcmd \
    -S localhost -U SA -P '<YourNewStrong!Passw0rd>' \
-   -Q 'RESTORE DATABASE WideWorldImporters FROM DISK = "/var/opt/mssql/backup/wwi.bak" WITH MOVE "WWI_Primary" TO "/var/opt/mssql/data/WideWorldImporters.mdf", MOVE "WWI_UserData" TO "/var/opt/mssql/data/WideWorldImporters_userdata.ndf", MOVE "WWI_Log" TO "/var/opt/mssql/data/WideWorldImporters.ldf", MOVE "WWI_InMemory_Data_1" TO "/var/opt/mssql/data/WideWorldImporters_InMemory_Data_1"'
+   -Q 'RESTORE DATABASE Shesha FROM DISK = "/var/opt/mssql/backup/Shesha.bak" WITH MOVE "ABPTest" TO "/var/opt/mssql/data/Shesha.mdf", MOVE "ABPTest_log" TO "/var/opt/mssql/data/ABPTest_log.ldf"'
 ```
 === "Powershell"
 ``` shell
 docker exec -it shesha-mssql19 /opt/mssql-tools/bin/sqlcmd `
    -S localhost -U SA -P "<YourNewStrong!Passw0rd>" `
-   -Q "RESTORE DATABASE WideWorldImporters FROM DISK = '/var/opt/mssql/backup/wwi.bak' WITH MOVE 'WWI_Primary' TO '/var/opt/mssql/data/WideWorldImporters.mdf', MOVE 'WWI_UserData' TO '/var/opt/mssql/data/WideWorldImporters_userdata.ndf', MOVE 'WWI_Log' TO '/var/opt/mssql/data/WideWorldImporters.ldf', MOVE 'WWI_InMemory_Data_1' TO '/var/opt/mssql/data/WideWorldImporters_InMemory_Data_1'"
+   -Q "RESTORE DATABASE Shesha FROM DISK = '/var/opt/mssql/backup/Shesha.bak' WITH MOVE 'ABPTest' TO '/var/opt/mssql/data/Shesha.mdf', MOVE 'ABPTest_log' TO '/var/opt/mssql/data/ABPTest_log.ldf'"
 ```
 
 You should see output similar to the following:
 
 ``` shell
-Processed 1464 pages for database 'WideWorldImporters', file 'WWI_Primary' on file 1.
-Processed 53096 pages for database 'WideWorldImporters', file 'WWI_UserData' on file 1.
-Processed 33 pages for database 'WideWorldImporters', file 'WWI_Log' on file 1.
-Processed 3862 pages for database 'WideWorldImporters', file 'WWI_InMemory_Data_1' on file 1.
-Converting database 'WideWorldImporters' from version 852 to the current version 869.
-Database 'WideWorldImporters' running the upgrade step from version 852 to version 853.
-Database 'WideWorldImporters' running the upgrade step from version 853 to version 854.
-Database 'WideWorldImporters' running the upgrade step from version 854 to version 855.
-Database 'WideWorldImporters' running the upgrade step from version 855 to version 856.
-Database 'WideWorldImporters' running the upgrade step from version 856 to version 857.
-Database 'WideWorldImporters' running the upgrade step from version 857 to version 858.
-Database 'WideWorldImporters' running the upgrade step from version 858 to version 859.
-Database 'WideWorldImporters' running the upgrade step from version 859 to version 860.
-Database 'WideWorldImporters' running the upgrade step from version 860 to version 861.
-Database 'WideWorldImporters' running the upgrade step from version 861 to version 862.
-Database 'WideWorldImporters' running the upgrade step from version 862 to version 863.
-Database 'WideWorldImporters' running the upgrade step from version 863 to version 864.
-Database 'WideWorldImporters' running the upgrade step from version 864 to version 865.
-Database 'WideWorldImporters' running the upgrade step from version 865 to version 866.
-Database 'WideWorldImporters' running the upgrade step from version 866 to version 867.
-Database 'WideWorldImporters' running the upgrade step from version 867 to version 868.
-Database 'WideWorldImporters' running the upgrade step from version 868 to version 869.
-RESTORE DATABASE successfully processed 58455 pages in 18.069 seconds (25.273 MB/sec).
+Processed 1088 pages for database 'Shesha', file 'ABPTest' on file 1.
+Processed 2 pages for database 'Shesha', file 'ABPTest_log' on file 1.
+RESTORE DATABASE successfully processed 1090 pages in 0.065 seconds (130.949 MB/sec).
 ```
 
 ## Verify Database
@@ -179,7 +159,7 @@ RESTORE DATABASE successfully processed 58455 pages in 18.069 seconds (25.273 MB
 
 === "Bash"
 ``` shell
-sudo docker exec -it shesha-mssql19 /opt/mssql-tools/bin/sqlcmd \
+docker exec -it shesha-mssql19 /opt/mssql-tools/bin/sqlcmd \
    -S localhost -U SA -P '<YourNewStrong!Passw0rd>' \
    -Q 'SELECT Name FROM sys.Databases'
 ```
@@ -190,4 +170,20 @@ docker exec -it shesha-mssql19 /opt/mssql-tools/bin/sqlcmd `
    -Q "SELECT Name FROM sys.Databases"
 ```
 
-You are now ready to connect to this database from your app or your favourite Microsoft SQL client.
+You should see output similar to the following:
+
+``` shell
+Name                                                                                                                   
+------------
+master
+tempdb
+model 
+msdb 
+Shesha
+
+(5 rows affected)
+```
+
+You are now ready to connect to this database from your app or your favourite Microsoft SQL client. The connection string for your application would look like this:
+
+`Server=localhost,1433;Database=Shesha;User Id=sa;Password=<YourNewStrong!Passw0rd>;MultipleActiveResultSets=True`
