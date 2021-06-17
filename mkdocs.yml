@@ -20,3 +20,8 @@ theme:
     primary: deep orange
   features:
     - navigation.sections
+markdown_extensions:
+  - admonition
+  - pymdownx.tabbed
+  - pymdownx.highlight
+  - pymdownx.superfences
