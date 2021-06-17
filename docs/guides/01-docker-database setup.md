@@ -186,4 +186,4 @@ Shesha
 
 You are now ready to connect to this database from your app or your favourite Microsoft SQL client. The connection string for your application would look like this:
 
-`Server=localhost,1433;Database=Shesha;User Id=sa;Password=<YourNewStrong!Passw0rd>;MultipleActiveResultSets=True`
+`Server=localhost,1401;Database=Shesha;User Id=sa;Password=<YourNewStrong!Passw0rd>;MultipleActiveResultSets=True`
