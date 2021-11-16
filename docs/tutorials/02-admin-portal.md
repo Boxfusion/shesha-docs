@@ -10,7 +10,7 @@ The main overview page for the Admin Portal app can be found on [Azure](https://
 
 The first step in cloning the repository is to navigatee to the Azure repo and selecting the 'Clone' button on the top right of the page.
 
-![appsettings.json screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/appsettings-json-screenshot.png?raw=true) 
+![appsettings.json screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/Admin-Portal-Clone.PNG) 
 
 
 ### Run the app
