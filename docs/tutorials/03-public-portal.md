@@ -1,4 +1,4 @@
-# Self Service
+# Public Portal
 
 ## Getting Started
 
