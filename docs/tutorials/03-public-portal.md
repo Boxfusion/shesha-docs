@@ -10,3 +10,5 @@
 ## Connecting to APIs
 
 ## Creating a Page
+
+## Contributing to the core framework
