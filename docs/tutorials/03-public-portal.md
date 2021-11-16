@@ -2,8 +2,8 @@
 
 ## Getting Started
 
-1. Cloning the repository
-2. Run the app
+### Cloning the repository
+### Run the app
 
 ## Creating a Component
 
