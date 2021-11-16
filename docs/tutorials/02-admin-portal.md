@@ -20,7 +20,6 @@ The easiest method is to select the IDE of your choice and clone it directly in 
 
 If you prefer to use CLI you can also clone it with the following CLI.
 
-=== "Bash"
 ``` shell
 https://boxfusion@dev.azure.com/boxfusion/Shesha-SampleProject/_git/SheshaMMSampleAdminPortal
 ```
