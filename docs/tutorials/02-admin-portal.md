@@ -28,6 +28,15 @@ Once the repositories are cloned we can continue to the next step.
 
 ### Run the app
 
+Once you have cloned and opened the repo its now time to get any missing dependencies and run the app. 
+
+The first step is to run the following CLI and update all the node packages. 
+
+``` shell
+npm i
+```
+
+
 ## Creating a Component
 
 ## Connecting to APIs
