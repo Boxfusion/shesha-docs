@@ -38,9 +38,25 @@ npm i
 
 ![admin-portal-cli-npm screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/admin-portal-cli-npm.PNG?raw=true)
 
-Running this will update and get any node packages you will need to run thee Admin Portal app.
+Running this CLI will update and get any node packages you will need to run the Admin Portal app.
 
 ![admin-portal-cli-npm-packages screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/admin-portal-cli-npm-packages.PNG?raw=true)
+
+Once this step is complete we can now run the app using the following CLI
+
+``` shell
+npm run dev
+```
+
+This will then build and serve the application on the following URL
+
+``` shell
+http://localhost:3050
+```
+
+You can manually navigate there or (ctrl + click) on the URL when it appears in your IDE teerminal. This will lauunch the following screen.
+
+![admin-portal-welcome-screen screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/admin-portal-welcome-screen.PNG?raw=true)
 
 ## Creating a Component
 
