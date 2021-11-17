@@ -30,12 +30,17 @@ Once the repositories are cloned we can continue to the next step.
 
 Once you have cloned and opened the repo its now time to get any missing dependencies and run the app. 
 
-The first step is to run the following CLI and update all the node packages. 
+The first step is to run the following CLI in your chosen IDE and update all the node packages. 
 
 ``` shell
 npm i
 ```
 
+![admin-portal-cli-npm screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/admin-portal-cli-npm.PNG?raw=true)
+
+Running this will update and get any node packages you will need to run thee Admin Portal app.
+
+![admin-portal-cli-npm-packages screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/admin-portal-cli-npm-packages.PNG?raw=true)
 
 ## Creating a Component
 
