@@ -54,10 +54,22 @@ This will then build and serve the application on the following URL
 http://localhost:3050
 ```
 
-You can manually navigate there or (ctrl + click) on the URL when it appears in your IDE teerminal. This will lauunch the following screen.
+You can manually navigate there or (ctrl + click) on the URL when it appears in your IDE teerminal. This will launch the following screen.
 
 ![admin-portal-welcome-screen screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/admin-portal-welcome-screen.PNG?raw=true)
 
+We can now log in using the following username and password.
+
+=== "Username"
+``` shell
+admin
+```
+=== "Password"
+``` shell
+123qwe
+```
+
+Congratulatiions, you have now succeessfully cloned and run the Shesha Admin Portal app!
 ## Creating a Component
 
 ## Connecting to APIs
