@@ -24,6 +24,42 @@ Once it is downloaded we can proceed to opening the folder in your choice of IDE
 
 ### Run the app
 
+Once you have cloned and opened the repo its now time to get any missing dependencies and run the app. 
+
+The first step is to run the following CLI in your chosen IDE and update all the node packages. 
+
+``` shell
+npm i
+```
+
+![shesha-reactjs-npm screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/shesha-reactjs-npm.PNG?raw=true)
+
+Running this CLI will update and get any node packages you will need to run the Admin Portal app. This step may take a while depending on your internet speed.
+
+![shesha-reactjs-node screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/shesha-reactjs-node.PNG?raw=true)
+
+Once this step is complete we can now run the app using the following CLI
+
+``` shell
+npm run storybook
+```
+
+This will then build and serve storybook on the following URL's
+
+=== "Local"
+``` shell
+http://localhost:6006/
+```
+=== "On your network"
+``` shell
+http://192.168.0.104:6006/
+```
+
+You can manually navigate there or (ctrl + click) on the URL when it appears in your IDE teerminal. This will launch the following screen.
+
+![shesha-reactjs-storybook screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/shesha-reactjs-storybook.PNG?raw=true)
+
+
 ## Creating a Component
 
 ## Connecting to APIs
