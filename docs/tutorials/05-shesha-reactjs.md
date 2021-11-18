@@ -6,7 +6,7 @@ In this tutorial we will introduce you to Shesha React JS and how to get it set 
 
 ### Cloning the repository
 
-The first step in cloning the repository is to navigate to the [Github](https://github.com/Boxfusion/shesha-reactjs) repo and selecting the green 'Code' button on the top right of the center page.
+The first step in cloning the repository is to navigate to the Shesha [Github](https://github.com/Boxfusion/shesha-reactjs) repo and selecting the green 'Code' button on the top right of the center page.
 
 ![shesha-reactjs-clone screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/shesha-reactjs-clone.PNG?raw=true) 
 
