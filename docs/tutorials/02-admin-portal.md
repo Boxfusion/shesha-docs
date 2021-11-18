@@ -69,7 +69,7 @@ admin
 123qwe
 ```
 
-Congratulatiions, you have now succeessfully cloned and run the Shesha Admin Portal app!
+Congratulations, you have now succeessfully cloned and run the Shesha Admin Portal app!
 ## Creating a Component
 
 ## Connecting to APIs
