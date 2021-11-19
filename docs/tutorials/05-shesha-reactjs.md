@@ -62,6 +62,12 @@ You can manually navigate there or (ctrl + click) on the URL when it appears in 
 
 ## Creating a Component
 
+Now that we have successfully cloned and run the application and successfully navigated to Storybook its time to create a new simple component.
+
+We will begin by creating a new component within Shesha React JS. Depending on your IDE this can be done in numerous ways, but for the example we will create a component using Microsoft's Visual Studio Code. 
+
+Lets begin by duplicating a simplpe component such as the 'actionButtonGroup'
+
 ## Connecting to APIs
 
 ## Creating a Page
