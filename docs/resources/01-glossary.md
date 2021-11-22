@@ -47,14 +47,12 @@ A configured instance of a Business Process Template.
 Has the ability to define:
 Configuration schema
 Workflow state schema
-
 A Business Process can be created from scratch or from a Business Process Template which defines 
 - **Business Process Template ???** - Defines a ‘pre-packaged’ Business Process including:
 Default workflow schema - The workflow (defined using BPMN notation) underlying the Business Process..
 Workflow State Model - Model used to save the state of the workflow.
 Business Process Settings Model - defines a schema for the BP Settings that should drive key elements the behaviour of the Business Process (these would be equivalent to workflow specific settings in SmartGov).
 Business Process Settings View - the UI used to update the settings if the default auto-generated UI is not adequate
-
 It’s not clear if we need this or we can simply define Business Process settings at a Business Process level and simply copy and paste i.e. duplicating the Business Process config, including the settings. 
 - **Terminology Configuration** -
 - **Configuration Panel** - View from which all configuration settings are made available.
