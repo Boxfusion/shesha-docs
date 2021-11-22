@@ -70,7 +70,34 @@ Lets begin by duplicating a component such as the 'actionButtonGroup'
 
 ![shesha-reactjs-duplicatingComponent screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/shesha-reactjs-duplicatingComponent.PNG?raw=true)
 
+Now lets navigate to the 'index.stories.tsx' file within the newly duplicated component. We will change the title of this component from
 
+=== "Old Title"
+``` shell
+title: 'Components/ActionButtonGroup',
+```
+ to 
+
+=== "New Title"
+``` shell
+title: 'Components/ActionButtonGroupDocumentationTest',
+```
+
+lets save the document and you should see the terminal is now recompiling storybook.
+
+![shesha-reactjs-duplicatingComponent-Step2 screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/shesha-reactjs-duplicatingComponent-Step2.PNG?raw=true)
+
+If the terminal does not recompile then its likely that it is not running, to run it you can simply run the following command in your IDE terminal.
+
+``` shell
+npm run storybook
+```
+
+We can now navigate back to StoryBook which will be running in your browser and look for our newly created component. 
+
+![shesha-reactjs-storybook-creating-component screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/shesha-reactjs-storybook-creating-component.PNG?raw=true)
+
+Congratulations, you have just successfully created a new component with Shesha ReactJS and Storybook! 
 
 ## Connecting to APIs
 
