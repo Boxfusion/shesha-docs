@@ -57,6 +57,8 @@ It’s not clear if we need this or we can simply define Business Process settin
 - **Terminology Configuration** -
 - **Configuration Panel** - View from which all configuration settings are made available.
 
+Updated: 22 November 16:12
+
 
 
 
