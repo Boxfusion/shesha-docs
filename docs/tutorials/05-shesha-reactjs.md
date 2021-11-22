@@ -66,7 +66,11 @@ Now that we have successfully cloned and run the application and successfully na
 
 We will begin by creating a new component within Shesha React JS. Depending on your IDE this can be done in numerous ways, but for the example we will create a component using Microsoft's Visual Studio Code. 
 
-Lets begin by duplicating a simplpe component such as the 'actionButtonGroup'
+Lets begin by duplicating a component such as the 'actionButtonGroup'
+
+![shesha-reactjs-duplicatingComponent screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/shesha-reactjs-duplicatingComponent.PNG?raw=true)
+
+
 
 ## Connecting to APIs
 
