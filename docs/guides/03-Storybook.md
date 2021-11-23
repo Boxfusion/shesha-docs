@@ -3,7 +3,7 @@
 
 ## Overview
 
-Storybook is an open source tool for building UI components and pages in isolation. It streamlines UI development, testing, and documentation.
+[Storybook](https://storybook.js.org/) is an open source tool for building UI components and pages in isolation. It streamlines UI development, testing, and documentation.
 
 ## Getting Started
 
