@@ -1,5 +1,7 @@
 # Overview
 
+![SHESHA%20HORIZONTAL screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/SHESHA%20HORIZONTAL.jpg?raw=true) 
+
 Shesha is an open source low-code software development framework. The target audience is mainly developers and business analysts who develop enterprise applications.
 
 There are several types of documentation available on this website:
