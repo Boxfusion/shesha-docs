@@ -17,13 +17,13 @@ You should be able to view the following page which was run using the following 
 npm run storybook
 ```
 
-![shesha-reactjs-storybook screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/shesha-reactjs-storybook.PNG?raw=true)
+![Storybook-landing-page screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/Storybook-landing-page.PNG?raw=true)
 
 ## Creating Pages for Components
 
 ### Storybook Introduction Page
 
+Each component you create on storybook needs to have an introduction page, we use this page to describe what the component is and how we use the component.
 
-
-
+![shesha-reactjs-storybook screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/shesha-reactjs-storybook.PNG?raw=true)
 
