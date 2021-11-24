@@ -53,8 +53,36 @@ We can do this by navigating to the following file in the Source code.
 ``` shell
 index.stories.tsx
 ```
+
 ![storybook-multiple-pages-source screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/storybook-multiple-pages-source.PNG?raw=true)
 
 As you can see in the above image the Collapsible Panel's 'index.stories.tsx' file has the code which will display the component on Storybook. 
+
+Here in particular we want to pay attention to two specific blocks of code.
+
+``` shell
+export const Basic = Template.bind({});
+Basic.args = { ...defaultProps };
+```
+
+and
+
+``` shell
+export const Advanced = Template.bind({});
+Advanced.args = { ...advancedProps };
+```
+
+These two lines indicate to storybook that we want two Stories or Pages for the component, one being 'Basic' and the other being 'Advanced'
+
+Both of these stories use the component template 
+
+``` shell
+const Template: Story<ICollapsiblePanelProps> = args => (
+  <CollapsiblePanel  {...args} >
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  </CollapsiblePanel>
+);
+```
+
 
 
