@@ -27,3 +27,10 @@ Each component you create on storybook needs to have an introduction page, we us
 
 ![shesha-reactjs-storybook screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/shesha-reactjs-storybook.PNG?raw=true)
 
+This page can be found in the Shesha React JS source code under the following name
+
+``` shell
+index.en-US.stories.mdx
+```
+![storybook-index screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/storybook-index.PNG?raw=true)
+
