@@ -34,3 +34,11 @@ index.en-US.stories.mdx
 ```
 ![storybook-index screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/storybook-index.PNG?raw=true)
 
+When creating new components on Shesha React JS please ensure to create a storybook introduction to the component so that its easy to understand the use cases for each component at a glance. 
+
+### Storybook Component Pages
+
+It's possible to create multiple pages for components in storybook, we use these pages where there are multiple scenario's for components. 
+
+For example if we have a component that has a basic functionality such as a dropdown container displaying a button group we can view the "Basic" page. However if there are scenarios where a component can become quite complex such as a dropdown container with added functionality such as filtering, auto-collapsing or even dynamic data that is displayed we can add as many pages as we need to dive deeper and explain multiple levels of complexity. 
+
