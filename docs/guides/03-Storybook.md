@@ -74,7 +74,7 @@ Advanced.args = { ...advancedProps };
 
 These two lines indicate to storybook that we want two Stories or Pages for the component, one being 'Basic' and the other being 'Advanced'
 
-Both of these stories use the component template 
+Both of these stories use the component template which will display the component and the text within the Collapsible Panel.
 
 ``` shell
 const Template: Story<ICollapsiblePanelProps> = args => (
@@ -84,5 +84,44 @@ const Template: Story<ICollapsiblePanelProps> = args => (
 );
 ```
 
+Where each page gets its identity is through the props added to each template such as:
 
+``` shell
+const advancedProps: ICollapsiblePanelProps = {
+  header: 'Advanced header',
+  expandIconPosition: 'left'
+};
+```
+
+We can create a third one for this guide to illustrate how we can add multiple more stories. 
+
+Lets begin by adding the following block of code just underneath the 'Advanced' props. 
+
+``` shell
+const expertProps: ICollapsiblePanelProps = {
+  header: 'Advanced header',
+  expandIconPosition: 'left',
+  noContentPadding: false,
+  loading: true,
+};
+```
+
+And then lets add the next block of code right at the bottom of the page. 
+
+``` shell
+export const Expert = Template.bind({});
+Advanced.args = { ...expertProps };
+```
+
+Your file should now look something like this.
+
+![storybook-multiple-pages-adding-new.PNG screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/storybook-multiple-pages-adding-new.PNG?raw=true)
+
+Now lets hit save and you will see your terminal will begin to build. 
+
+Lets navigate back to Storybook which will be open in your browser and you can now see that we have a new page added to the component!
+
+![storybook-multiple-pages-expert-page.PNG screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/storybook-multiple-pages-expert-page.PNG?raw=true)
+
+Congratulations, you have now learnt the basics of Storybook and correctly documenting and adding pages to your components.
 
