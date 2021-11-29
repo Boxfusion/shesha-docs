@@ -1,4 +1,4 @@
-# Introduction
+# Membership Management App
 
 For this introduction we will be building a membership management app which is designed for organisations that want to manage memberships such as political parties and schools.
 
