@@ -1,6 +1,8 @@
 
 # Storybook
 
+![Storybook%20Logo screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/Storybook%20Logo.jpg?raw=true)
+
 ## Overview
 
 [Storybook](https://storybook.js.org/) is an open source tool for building UI components and pages in isolation. It streamlines UI development, testing, and documentation.
