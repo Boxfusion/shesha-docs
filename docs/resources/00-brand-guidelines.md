@@ -118,3 +118,11 @@ The Shesha Logo Icon is a flexible mark that can act as a call to action or a sh
 ``` shell
 #000E8E
 ```
+
+## Products, websites, names and logos
+
+Please don't use our name as a part of your company or service name, website name, trade name, or product name. Don't use our logo or incorporate our logo into yours. Don't use a domain name containing "Shesha" or any confusingly similar words.
+
+## Merchandise
+
+While we make lots of t-shirts with our logo on them, we don't generally allow third parties to make, sell, or give away anything with our name or logo on it.
