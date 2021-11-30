@@ -72,3 +72,49 @@ The Shesha Logo Icon is a flexible mark that can act as a call to action or a sh
 ``` shell
 #23B414
 ```
+
+
+### Laurel
+![SHESHA%20LOGO screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/Shesha%20Colour%20Laurel.png?raw=true)
+``` shell
+#007e00
+```
+
+### Atlantis
+![SHESHA%20LOGO screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/Shesha%20Colour%20Atlantis.png?raw=true)
+``` shell
+#7CC233
+```
+
+
+### Thunderbird
+![SHESHA%20LOGO screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/Shesha%20Colour%20Thunderbird.png?raw=true)
+``` shell
+#D61111
+```
+
+
+### Blaze Orange
+![SHESHA%20LOGO screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/Shesha%20Colour%20Blaze%20Orange.png?raw=true)
+``` shell
+#FF6600
+```
+
+### Selective Yellow
+![SHESHA%20LOGO screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/Shesha%20Colour%20Selective%20Yellow.png?raw=true)
+``` shell
+#FEBA00
+```
+
+### Cobalt
+![SHESHA%20LOGO screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/Shesha%20Colour%20Cobalt.png?raw=true)
+``` shell
+#003BB2
+```
+
+
+### Navy Blue
+![SHESHA%20LOGO screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/Shesha%20Colour%20Navy%20Blue.png?raw=true)
+``` shell
+#000E8E
+```
