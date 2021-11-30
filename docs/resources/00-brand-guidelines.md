@@ -79,16 +79,16 @@ The Shesha Logo Icon is a flexible mark that can act as a call to action or a sh
 
 ### Some Dont's When Using Our Logo
 
-Do not crop the logo
-Do not change the transparency of the logo
-Do not shuffle around the colors of the logo
-Do not use different colors
-Do not change the size or position of the logo and wordmark
-Do not distort the logo
-Do not use drop shadowsor any other effects
-Do not re-create using any other typeface
-Do not outline logotype
-Do not rotate any part of the logo
+-Do not crop the logo
+-Do not change the transparency of the logo
+-Do not shuffle around the colors of the logo
+-Do not use different colors
+-Do not change the size or position of the logo and wordmark
+-Do not distort the logo
+-Do not use drop shadowsor any other effects
+-Do not re-create using any other typeface
+-Do not outline logotype
+-Do not rotate any part of the logo
 
 ## Shesha Brand Colours
 
