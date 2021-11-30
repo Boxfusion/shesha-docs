@@ -1,5 +1,12 @@
 # Brand Guidelines
 
+## Who We Are
+
+Shesha is an open source low-code software development framework. The target audience is mainly developers and business analysts who develop enterprise applications.
+
+'Shesha' is a Zulu slang term for 'fast' or 'go quicker' (we are based in South Africa), and it is meant to convey the speed at which the platform will allow someone to create a solution just by plugging together lego blocks rather than hand coding something from scratch.
+
+
 ## Logos, Icons and Colours
 
 The Shesha logo is our universal logo for all Shesha based applications. We want it to be instantly recognizable, so consistency is important — please don’t edit, change, distort, recolor, or reconfigure it.
