@@ -67,7 +67,8 @@ The Shesha Logo Icon is a flexible mark that can act as a call to action or a sh
 
 ## Shesha Brand Colours
 
-=== "La Palma"
+### La Palma
+![SHESHA%20LOGO screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/Shesha%20Colour%20La%20Palma.png?raw=true)
 ``` shell
 #23B414
 ```
