@@ -54,3 +54,13 @@ We’ve optimized our logo for specific sizes. The Shesha Logo and Wordmark must
 The full-color logos pair our Shesha icon with a full Black (#000000) or White (#FFFFFF) text.
 
 The Black full-color logo can be shown on a White background or light imagery.
+
+![SHESHA%20LOGO screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/Shesha%20Black%20Example.jpg?raw=true)
+
+The White full-color logo can be shown on an Almost Black background or dark imagery.
+
+![SHESHA%20LOGO screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/Shesha-White-Example.jpg?raw=true)
+
+## Shesha Icon
+
+The Shesha Logo Icon is a flexible mark that can act as a call to action or a shorter version of the full Shesha Logo. If you don't have room to use the full logo at minimum size with the required clear space, you should use the Shesha Icon without the wordmark instead.
