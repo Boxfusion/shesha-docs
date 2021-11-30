@@ -6,7 +6,11 @@ The Shesha logo is our universal logo for all Shesha based applications. We want
 
 Below you’ll find downloadable versions of the logos and Icons:
 
-1 - [Shesha Horizontal Logo with Wordmark](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/SHESHA%20HORIZONTAL.png?raw=true)
+#### Horizontal Logo's
+[Shesha Horizontal Logo with Wordmark](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/SHESHA%20HORIZONTAL.png?raw=true)
+[Shesha Horizontal Logo with Wordmark](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/SHESHA%20HORIZONTAL%20WHITE.png?raw=true)
+
+#### Vertical Logo's
 
 2 - [Shesha Vertical Logo with Wordmark](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/SHESHA%20VERTICAL.png?raw=true)
 
@@ -20,9 +24,13 @@ Below you’ll find downloadable versions of the logos and Icons:
 
 ![SHESHA%20HORIZONTAL screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/SHESHA%20HORIZONTAL%20WHITE.png?raw=true)
 
-### Shesha Vertical Logo with Wordmark
+### Shesha Vertical Logo with Black Wordmark
 
 ![SHESHA%20VERTICAL screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/SHESHA%20VERTICAL.png?raw=true)
+
+### Shesha Vertical Logo with White Wordmark
+
+![SHESHA%20VERTICAL screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/SHESHA%20VERTICAL%20WHITE.png?raw=true)
 
 ### Shesha Logo
 
