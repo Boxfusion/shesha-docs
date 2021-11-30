@@ -25,7 +25,7 @@ Below you’ll find downloadable versions of the logos and Icons:
 
 ### Shesha Horizontal Logo with White Wordmark
 
-![SHESHA%20HORIZONTAL screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/SHESHA%20HORIZONTAL%20WHITE.png?raw=true)
+![SHESHA%20HORIZONTAL screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/SHESHA%20HORIZONTAL%20WHITE%20WITH%20BACKGROUND.png?raw=true)
 
 ### Shesha Vertical Logo with Black Wordmark
 
@@ -33,7 +33,7 @@ Below you’ll find downloadable versions of the logos and Icons:
 
 ### Shesha Vertical Logo with White Wordmark
 
-![SHESHA%20VERTICAL screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/SHESHA%20VERTICAL%20WHITE.png?raw=true)
+![SHESHA%20VERTICAL screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/SHESHA%20VERTICAL%20WHITE%20WITH%20BACKGROUND.png?raw=true)
 
 ### Shesha Logo
 
