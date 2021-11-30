@@ -6,6 +6,11 @@ Shesha is an open source low-code software development framework. The target aud
 
 'Shesha' is a Zulu slang term for 'fast' or 'go quicker' (we are based in South Africa), and it is meant to convey the speed at which the platform will allow someone to create a solution just by plugging together lego blocks rather than hand coding something from scratch.
 
+Our goal is to make people’s working lives simpler, more
+pleasant and more productive.
+Our vision is a world where organizations can achieve agility
+easily, no matter their size.
+
 
 ## Logos, Icons and Colours
 
@@ -71,6 +76,19 @@ The White full-color logo can be shown on a black background or dark imagery.
 ### Shesha Icon
 
 The Shesha Logo Icon is a flexible mark that can act as a call to action or a shorter version of the full Shesha Logo. If you don't have room to use the full logo at minimum size with the required clear space, you should use the Shesha Icon without the wordmark instead.
+
+### Some Dont's When Using Our Logo
+
+Do not crop the logo
+Do not change the transparency of the logo
+Do not shuffle around the colors of the logo
+Do not use different colors
+Do not change the size or position of the logo and wordmark
+Do not distort the logo
+Do not use drop shadowsor any other effects
+Do not re-create using any other typeface
+Do not outline logotype
+Do not rotate any part of the logo
 
 ## Shesha Brand Colours
 
