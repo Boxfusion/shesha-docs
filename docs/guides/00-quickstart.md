@@ -1,29 +1,64 @@
-# Quickstart
+#Overview
 
-The starter projects are the best way to get your self started building Shesha apps. You can download the latest core starter project from [Github](https://github.com/Boxfusion/shesha-core-starter)
+This quickstart guide will help you get setup eith Shesha and introduce you to the repositories, setting it all up and getting your application running.
 
-For this tutorial we will be using docker in ordeer to quickly spin up an SQL Server Instance that we can use for our project but you do not need to use docker.
+#Setting Up The Database
 
-## Installing SQL Server via Docker
+#Downloading The Artificats
 
-You can find more information about how to install docker and get is started for your platform from the [Docker](https://www.docker.com/get-started) website in our case we will document installing the SQL Servere image and getting the connection string.
+#Setting Up The Backend
 
-Once you have Docker installed you can start a mssql-server instance named "shesha-mssql19" using the latest update for SQL Server 2019
+#Setting Up The Admin Portal
 
-`docker run --name 'shesha-mssql19' -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=yourStrong(!)Password' -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest`
+# Admin Portal
 
-In the case above we have setup our sql instance with the database system administrator userid='sa'.
+## Getting Started
 
-## Restoring the empty database using docker
+In this tutorial we will introduce you to the Admin Portal app and how to get it set up. 
 
-There is an empty database called *Shesha.bak* in the *db* folder directory of the project that you will need to use to restore the default Shesha Database.
+## Run the app
 
-We will demonstrate how to restore the database in docker. 
+Once you have cloned and opened the repo its now time to get any missing dependencies and run the app. 
 
-Once you have created a database and it is up and running you will need to go into the *ShaCompanyName.ShaProjectName.Web.Host > appsettings.json* and change your Default connection string to the connection for the database you created. In our case it will be: `Server=localhost,1433;Database=SheshaDB;User Id=sa;Password=n0-hack.;MultipleActiveResultSets=True`
+The first step is to run the following CLI in your chosen IDE and update all the node packages. 
 
-![appsettings.json screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/appsettings-json-screenshot.png?raw=true)
+``` shell
+npm i
+```
 
-## Running the Application
+![admin-portal-cli-npm screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/admin-portal-cli-npm.PNG?raw=true)
 
-In order to run the project you will need to right-click and set the `ShaCompanyName.ShaProjectName.Web.Host` project as the starter project and then click Run.
+Running this CLI will update and get any node packages you will need to run the Admin Portal app.
+
+![admin-portal-cli-npm-packages screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/admin-portal-cli-npm-packages.PNG?raw=true)
+
+Once this step is complete we can now run the app using the following CLI
+
+``` shell
+npm run dev
+```
+
+This will then build and serve the application on the following URL
+
+``` shell
+http://localhost:3050
+```
+
+You can manually navigate there or (ctrl + click) on the URL when it appears in your IDE teerminal. This will launch the following screen.
+
+![admin-portal-welcome-screen screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/admin-portal-welcome-screen.PNG?raw=true)
+
+We can now log in using the following username and password.
+
+=== "Username"
+``` shell
+admin
+```
+=== "Password"
+``` shell
+123qwe
+```
+
+Congratulations, you have now succeessfully cloned and run the Shesha Admin Portal app!
+
+#Setting Up The Public App
