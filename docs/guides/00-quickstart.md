@@ -10,8 +10,6 @@ This quickstart guide will help you get setup eith Shesha and introduce you to t
 
 # Setting Up The Admin Portal
 
-# Admin Portal
-
 ## Getting Started
 
 In this tutorial we will introduce you to the Admin Portal app and how to get it set up. 
