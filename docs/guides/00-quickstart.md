@@ -1,14 +1,14 @@
-#Overview
+# Overview
 
 This quickstart guide will help you get setup eith Shesha and introduce you to the repositories, setting it all up and getting your application running.
 
-#Setting Up The Database
+# Setting Up The Database
 
-#Downloading The Artificats
+# Downloading The Artificats
 
-#Setting Up The Backend
+# Setting Up The Backend
 
-#Setting Up The Admin Portal
+# Setting Up The Admin Portal
 
 # Admin Portal
 
@@ -61,4 +61,4 @@ admin
 
 Congratulations, you have now succeessfully cloned and run the Shesha Admin Portal app!
 
-#Setting Up The Public App
+# Setting Up The Public App
