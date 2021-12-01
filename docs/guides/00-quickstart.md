@@ -1,4 +1,4 @@
-# Overview
+# Quickstart Guide
 
 This quickstart guide will help you get setup eith Shesha and introduce you to the repositories, setting it all up and getting your application running.
 
