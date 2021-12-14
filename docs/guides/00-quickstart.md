@@ -2,6 +2,14 @@
 
 This quickstart guide will help you get setup with Shesha. The starter projects are the best way to get your self started building Shesha apps.
 
+## Requirements
+
+Before you can get start you will need to make sure that you have the following development tools installed on your machine.
+
+- **Database:** Microsoft SQL Server Management Studio v18.10, Microsoft SQL Server 2019
+- **Backend:** Microsoft Visual Studio, .NET Core
+- **Admin and Public Portals:** NodeJS, Python, Sass
+
 ## Downloading The Artificats
 
 This step will show you how you can download all the repositories you'll need to get Shesha up and running. You can click the following link in order to download the required artifacts.
@@ -16,14 +24,6 @@ The link should include the following files:
 - SheshaMMSampleAdminPortal (Admin Portal)
 - SheshaMMSampleBackend (Backend)
 - SheshaMMSamplePublicPortal (Public Portall)
-
-## Requirements
-
-Before you can get start you will need to make sure that you have the following development tools installed on your machine.
-
-- **Database:** Microsoft SQL Server Management Studio v18.10, Microsoft SQL Server 2019
-- **Backend:** Microsoft Visual Studio, .NET Core
-- **Admin and Public Portals:** NodeJS, Python, Sass
 
 ## Setting Up The Database
 
