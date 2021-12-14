@@ -8,6 +8,10 @@ The starter projects are the best way to get your self started building Shesha a
 
 # Downloading The Artificats
 
+This step will show you how you can download all the repositories you'll need to get Shesha up and running. 
+
+Lets begin by navigating to the Shesha artifacts repository on [GIT](https://dev.azure.com/boxfusion/Shesha-SampleProject). Here you will be able to download all three artifacts to get you going through the rest of the quickstart guide. 
+
 # Setting Up The Backend
 
 # Setting Up Shesha React JS
