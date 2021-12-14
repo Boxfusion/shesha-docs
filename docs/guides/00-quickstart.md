@@ -8,7 +8,7 @@ Before you can get start you will need to make sure that you have the following 
 
 - **Database:** Microsoft SQL Server Management Studio v18.10, Microsoft SQL Server 2019
 - **Backend:** Microsoft Visual Studio, .NET Core
-- **Admin and Public Portals:** NodeJS, Python, Sass
+- **Admin and Public Portals:** Visual Studio Code, NodeJS, Python, Sass
 
 ## Downloading The Artificats
 
@@ -48,6 +48,28 @@ This guide will not be showing you how to install Microsoft SQL Server Managemen
 ![step 4: setting up the database](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/setting-up-the-database-4.png?raw=true)
 
 ## Setting Up The Backend
+
+Now that you have successfully backed up the database we will be configuring and setting up the backend APIs so that you can start making calls to and from your database.
+
+We will be using Visual Studio 2019 Enterprise in this tutorial to configure the backend. Any version of Visual Studio should work as long as you have the .NET core tools for development installed.
+
+The first thing you will need to do is locate the "SheshaMMSampleBackend" folder where your sample backend application is kept and open up the solution by double clicking the "Shesha.Sample.sln" file.
+
+![step 1: setting up the backend](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/setting-up-the-backend-1.png?raw=true)
+
+Before you continue make sure that you have selected the "Shesha.Sample.Web.Host" project as the start up project. You can do this by right clicking the "Shesha.Sample.Web.Host" project and selecting "Set as Startup Project".
+
+![step 2: setting up the backend](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/setting-up-the-backend-2.png?raw=true)
+
+Before you can run the backend application you will need to make sure that it is pointing to the correct database that you setup before.
+
+Expand the "Shesha.Sample.Web.Host" project and double click the "appsettings.json". You will need to edit the connection string to point to your local database that you setup earlier. In this cases we use windows authentication to access our database and our database was restored as "Shesha" so our default connection string will be **"Default": "Data Source=MSI\\MSSQLSERVER01;Initial Catalog=Shesha;integrated security=true"**.
+
+![step 3: setting up the backend](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/setting-up-the-backend-3.png?raw=true)
+
+You can now run the app. If you have set everything up correctly you should see the swagger page for the application opened in your browser.
+
+![step 4: setting up the backend](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/setting-up-the-backend-4.png?raw=true)
 
 ## Setting Up The Admin Portal
 
