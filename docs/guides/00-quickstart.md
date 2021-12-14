@@ -122,4 +122,8 @@ admin
 
 Congratulations, you have now succeessfully cloned and run the Shesha Admin Portal app!
 
-## Setting Up The Public App
+## Congratulations
+
+You have setup the main components required to complete the tutorial. We will be building a membership application from scratch and introducing you to more components and patterns for building Shesha apps.
+
+You can move on to the [Membership Management App](https://shesha-docs.readthedocs.io/en/latest/tutorials/00-introduction/) tutorial section when you are ready.
