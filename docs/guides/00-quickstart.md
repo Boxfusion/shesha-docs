@@ -44,21 +44,13 @@ Once you have downloaded the artifacts you can start by restoring the provided d
 
 This guide will not be showing you how to install Microsoft SQL Server Management Studio v18.10 or how to create a server instance that you can connect to as it is beyond the scope of this tutorial.
 
-1. Open up Microsoft SQL Server Management Studio and Connect to a Server
+1. Open up Microsoft SQL Server Management Studio and Connect to a Server ![step 1: setting up the database](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/setting-up-the-database-1.png?raw=true)
 
-![step 1: setting up the database](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/setting-up-the-database-1.png?raw=true)
+2. Right click the "Databases" node and select "Restore Database" ![step 2: setting up the database](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/setting-up-the-database-2.png?raw=true)
 
-2. Right click the "Databases" node and select "Restore Database"
+3. Select "Device" from your source tabe and locate the "Shesha.bak" file by clicking the "Add" button. You might need to place the backup direcly on your C drive if you are having issues locating it due to permissions. ![step 3: setting up the database](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/setting-up-the-database-3.png?raw=true)
 
-![step 2: setting up the database](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/setting-up-the-database-2.png?raw=true)
-
-3. Select "Device" from your source tabe and locate the "Shesha.bak" file by clicking the "Add" button. You might need to place the backup direcly on your C drive if you are having issues locating it due to permissions.
-
-![step 3: setting up the database](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/setting-up-the-database-3.png?raw=true)
-
-4. Once you have added the backup you can click "Verify Backup Media" and once all is set you can click the "OK" button to complete the import
-
-![step 4: setting up the database](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/setting-up-the-database-4.png?raw=true)
+4. Once you have added the backup you can click "Verify Backup Media" and once all is set you can click the "OK" button to complete the import ![step 4: setting up the database](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/setting-up-the-database-4.png?raw=true)
 
 ## Setting Up The Backend
 
