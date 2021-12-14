@@ -57,7 +57,7 @@ In this tutorial we will introduce you to the Admin Portal app and how to get it
 
 ### Run the app
 
-Once you have cloned and opened the repo its now time to get any missing dependencies and run the app. 
+Once you have cloned and opened the 'SheshaMMSampleAdminPortal (Admin Portal)' repository it's now time to get any missing dependencies and run the app. 
 
 The first step is to run the following CLI in your chosen IDE and update all the node packages. 
 
@@ -83,7 +83,7 @@ This will then build and serve the application on the following URL
 http://localhost:3050
 ```
 
-You can manually navigate there or (ctrl + click) on the URL when it appears in your IDE teerminal. This will launch the following screen.
+You can manually navigate there or (ctrl + click) on the URL when it appears in your IDE terminal. This will launch the following screen.
 
 ![admin-portal-welcome-screen screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/admin-portal-welcome-screen.PNG?raw=true)
 
