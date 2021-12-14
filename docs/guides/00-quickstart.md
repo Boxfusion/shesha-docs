@@ -30,9 +30,18 @@ Below is a diagram that shows how these applications can be typically deployed i
 
 ## Downloading The Artificats
 
-This step will show you how you can download all the repositories you'll need to get Shesha up and running. 
+This step will show you how you can download all the repositories you'll need to get Shesha up and running. You can click the following link in order to download the required artifacts.
 
-Lets begin by navigating to the Shesha artifacts repository on [GIT](https://dev.azure.com/boxfusion/Shesha-SampleProject). Here you will be able to download all three artifacts to get you going through the rest of the quickstart guide. 
+[Download SheshaArtifacts.zip](https://github.com/Boxfusion/shesha-docs/blob/e9e08dffa636792399f740c141b402c60c11b839/docs/assets/SheshaArtifacts.zip)
+
+![download link](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/shesha-artifacts-download-link.png?raw=true)
+
+The link should include the following files:
+
+- Shesha.bak (Database)
+- SheshaMMSampleAdminPortal (Admin Portal)
+- SheshaMMSampleBackend (Backend)
+- SheshaMMSamplePublicPortal (Public Portall)
 
 ## Setting Up The Database
 
