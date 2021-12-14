@@ -23,7 +23,7 @@ This step will show you how you can download all the repositories you'll need to
 
 ![download link](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/shesha-artifacts-download-link.png?raw=true)
 
-The link should include the following files:
+The link should include the following files or folders:
 
 - Shesha.bak (Database)
 - SheshaMMSampleAdminPortal (Admin Portal)
