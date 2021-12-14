@@ -26,7 +26,7 @@ A sample public portal app which is totally decoupled from the admin portal and 
 
 Below is a diagram that shows how these applications can be typically deployed in a real world situation.
 
-
+![components diagram](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/components.png?raw=true)
 
 ## Downloading The Artificats
 
