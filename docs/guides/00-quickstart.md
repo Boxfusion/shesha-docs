@@ -2,18 +2,13 @@
 
 This quickstart guide will help you get setup with Shesha. The starter projects are the best way to get your self started building Shesha apps.
 
-## Components
+## Requirements
 
-The Shesha quickstart consists of 4 main components.
+Before you can get start you will need to make sure that you have the following development tools installed on your machine.
 
-- **Database:** A clean sample database that contains all the default tables and migrations needed to seed a new database and application.
-- **Backend:** A sample backend application with APIs and services that allow you to interacte with a Shesha application from a totally decoupled system. The admin and public portals depend on this backend.
-- **Admin Portal:** A sample admin portal that contains default functionailty for administratiing a shesha application. These includes functionality to administer roles and permissions, create new forms, etc.
-- **Public Portal:** A sample public portal app which is totally decoupled from the admin portal and provides a demo on how you can consume the APIs and services from a third party app. The public portal app also leverages the components provided by Shesha to show you how you can use these when building your application.
-
-Below is a diagram that shows how these applications can be typically deployed in a real world situation.
-
-![components diagram](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/components.png?raw=true)
+- **Database:** Microsoft SQL Server Management Studio v18.10, Microsoft SQL Server 2019
+- **Backend:** Microsoft Visual Studio, .NET Core
+- **Admin and Public Portals:** NodeJS, Python, Sass
 
 ## Downloading The Artificats
 
@@ -29,14 +24,6 @@ The link should include the following files or folders:
 - SheshaMMSampleAdminPortal (Admin Portal)
 - SheshaMMSampleBackend (Backend)
 - SheshaMMSamplePublicPortal (Public Portall)
-
-## Requirements
-
-Before you can get start you will need to make sure that you have the following development tools installed on your machine.
-
-- **Database:** Microsoft SQL Server Management Studio v18.10, Microsoft SQL Server 2019
-- **Backend:** Microsoft Visual Studio, .NET Core
-- **Admin and Public Portals:** NodeJS, Python, Sass
 
 ## Setting Up The Database
 

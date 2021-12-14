@@ -6,6 +6,19 @@ Shesha is an open source low-code platform for building enterprise apps without 
 
 The platform is built for both for Developers and less technical users, it is a rapid application delivery platform that enables the agile enterprise to build, model, and deploy multi-experience apps.
 
+## Components
+
+Shesha apps consist of 4 main components:
+
+- Database
+- Backend
+- Admin Portal
+- Public Portal
+
+Below is a diagram that shows how these applications can be typically deployed in a real world situation.
+
+![components diagram](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/components.png?raw=true)
+
 There are several types of documentation available on this website:
 
 - Guides
