@@ -4,23 +4,23 @@ This quickstart guide will help you get setup eith Shesha and introduce you to t
 
 The starter projects are the best way to get your self started building Shesha apps.
 
-# Components
+## Components
 
 The Shesha quickstart consists of 4 main components.
 
-## Database
+### Database
 
 A clean sample database that contains all the default tables and migrations needed to seed a new database and application.
 
-## Backend
+### Backend
 
 A sample backend application with APIs and services that allow you to interacte with a Shesha application from a totally decoupled system. The admin and public portals depend on this backend.
 
-## Admin Portal
+### Admin Portal
 
 A sample admin portal that contains default functionailty for administratiing a shesha application. These includes functionality to administer roles and permissions, create new forms, etc.
 
-## Public Portal
+### Public Portal
 
 A sample public portal app which is totally decoupled from the admin portal and provides a demo on how you can consume the APIs and services from a third party app. The public portal app also leverages the components provided by Shesha to show you how you can use these when building your application.
 
@@ -28,19 +28,19 @@ Below is a diagram that shows how these applications can be typically deployed i
 
 
 
-# Downloading The Artificats
+## Downloading The Artificats
 
 This step will show you how you can download all the repositories you'll need to get Shesha up and running. 
 
 Lets begin by navigating to the Shesha artifacts repository on [GIT](https://dev.azure.com/boxfusion/Shesha-SampleProject). Here you will be able to download all three artifacts to get you going through the rest of the quickstart guide. 
 
-# Setting Up The Database
+## Setting Up The Database
 
-# Setting Up The Backend
+## Setting Up The Backend
 
-# Setting Up Shesha React JS
+## Setting Up Shesha React JS
 
-## Run the app
+### Run the app
 
 Once you have cloned and opened the repo its now time to get any missing dependencies and run the app. 
 
@@ -78,7 +78,7 @@ You can manually navigate there or (ctrl + click) on the URL when it appears in 
 ![shesha-reactjs-storybook screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/shesha-reactjs-storybook.PNG?raw=true)
 
 
-## Creating a Component
+### Creating a Component
 
 Now that we have successfully cloned and run the application and successfully navigated to Storybook its time to create a new simple component.
 
@@ -117,13 +117,13 @@ We can now navigate back to StoryBook which will be running in your browser and 
 
 Congratulations, you have just successfully created a new component with Shesha ReactJS and Storybook! 
 
-# Setting Up The Admin Portal
+## Setting Up The Admin Portal
 
-## Getting Started
+### Getting Started
 
 In this tutorial we will introduce you to the Admin Portal app and how to get it set up. 
 
-## Run the app
+### Run the app
 
 Once you have cloned and opened the repo its now time to get any missing dependencies and run the app. 
 
@@ -168,4 +168,4 @@ admin
 
 Congratulations, you have now succeessfully cloned and run the Shesha Admin Portal app!
 
-# Setting Up The Public App
+## Setting Up The Public App
