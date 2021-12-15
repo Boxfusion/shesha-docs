@@ -110,7 +110,7 @@ To add your menu items click the "Add New Item" button. This will add a new menu
 
 The only difference for these menu items is that you will need to add a button action and it's target Uri. Use the properties below to create your menus.
 
-#### Reports
+**Reports**
 
 - Item Type: Button
 - Title: Reports
@@ -119,7 +119,7 @@ The only difference for these menu items is that you will need to add a button a
 - Button Action: Navigate
 - Target Uri: /reports
 
-#### Members
+**Members**
 
 - Item Type: Button
 - Title: Members
@@ -128,7 +128,7 @@ The only difference for these menu items is that you will need to add a button a
 - Button Action: Navigate
 - Target Uri: /members
 
-#### Areas
+**Areas**
 
 - Item Type: Button
 - Title: Areas
@@ -137,7 +137,7 @@ The only difference for these menu items is that you will need to add a button a
 - Button Action: Navigate
 - Target Uri: /areas
 
-#### Forms
+**Forms**
 
 - Item Type: Button
 - Title: Forms
