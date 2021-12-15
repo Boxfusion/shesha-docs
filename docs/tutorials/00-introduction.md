@@ -15,3 +15,6 @@ In this tutorial, you learn how to:
 - Calling the API service from Postman
 - Capturing data using our form from the admin portal
 - Capturing data from a custom form the public portal
+
+At the end of this tutorial you will have a membership management app this will allow you to capture new membership details using your designed forms and saving them in your database.
+
