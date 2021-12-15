@@ -126,4 +126,4 @@ Congratulations, you have now succeessfully cloned and run the Shesha Admin Port
 
 You have setup the main components required to complete the tutorial. We will be building a membership application from scratch and introducing you to more components and patterns for building Shesha apps.
 
-You can move on to the [Membership Management App](https://shesha-docs.readthedocs.io/en/latest/tutorials/00-introduction/) tutorial section when you are ready.
+You can move on to the [Membership Management App](https://shesha-docs.readthedocs.io/en/latest/tutorials/00-membership-management-app/) tutorial section when you are ready.
