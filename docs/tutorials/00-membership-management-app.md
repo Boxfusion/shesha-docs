@@ -58,3 +58,27 @@ Congratulations you have now successfully assigned your user "Admin" the role re
 
 
 You are now ready to move on to the next sectioin.
+
+## Configuring the Menu
+
+In this section we will be setting up some basic navigation menu items. Shesha already comes with a lot of built in functionality out of the box so we will be exposing some of these via the menus and also configuring some of our own custom pages and forms in the menu.
+
+The first thing you should notice now is that since you configured the roles for your logged in user you now have access to an edit icon in the top right of the page. You will need to click this so you can start adding and editing some menu icons.
+
+If you don't see this menu icon you will need to refresh the page.
+
+
+![edit menu icon](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/membership-management-app-6.png?raw=true)
+
+
+
+You can click on this edit icon and it will open a pop up confirmation window asking you to "Launch Edit Mode?". You can click "Ok" from this window and this will now put the menu bar in edit mode as shown by the dashed box.
+
+
+![editable menu](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/membership-management-app-7.png?raw=true)
+
+
+When you hover over the dashed box the dashes will changee from white to blue which indicate that it is selectable. You can click on the dashed box to bring up the menu customisation window.
+
+
+![menu customisation](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/membership-management-app-8.png?raw=true)
