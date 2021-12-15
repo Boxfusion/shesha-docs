@@ -15,6 +15,7 @@ In this tutorial, you learn how to:
 - Calling the API service from Postman
 - Capturing data using our form from the admin portal
 - Capturing data from a custom form the public portal
+- Configuring and generating reports
 
 At the end of this tutorial you will have a membership management app this will allow you to capture new membership details using your designed forms and saving them in your database.
 
@@ -82,3 +83,65 @@ When you hover over the dashed box the dashes will changee from white to blue wh
 
 
 ![menu customisation](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/membership-management-app-8.png?raw=true)
+
+
+We will start of by adding the following menu items:
+
+- Reports
+- Members
+- Areas
+- Forms
+
+By convention we add the "forms" navigation item in a group called "Configuration". Below are the steps for adding groups and adding items.
+
+### Adding a Group
+
+Click the "Add Group" button to start adding your group. This will add the group item to the menu and opens the "Properties" window on the right.
+
+You can change the Title, Tooltip and Icon properties window with the information for the "Configuration" as shown below or to the values you prefer.
+
+
+![configuration menu details](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/membership-management-app-9.png?raw=true)
+
+
+### Adding a New Item
+
+To add your menu items click the "Add New Item" button. This will add a new menu item to the menu. You can keep the Item Type as Button but you will need to change the Title, Tooltip and Icon properties to your liking.
+
+The only difference for these menu items is that you will need to add a button action and it's target Uri. Use the properties below to create your menus.
+
+#### Reports
+
+- Item Type: Button
+- Title: Reports
+- Tooltip: Reports
+- Icon: LineChartOutlined
+- Button Action: Navigate
+- Target Uri: /reports
+
+#### Members
+
+- Item Type: Button
+- Title: Members
+- Tooltip: Members
+- Icon: UserOutlined
+- Button Action: Navigate
+- Target Uri: /members
+
+#### Areas
+
+- Item Type: Button
+- Title: Areas
+- Tooltip: Areas
+- Icon: GlobeOutlined
+- Button Action: Navigate
+- Target Uri: /areas
+
+#### Forms
+
+- Item Type: Button
+- Title: Forms
+- Tooltip: Forms
+- Icon: FormOutlined
+- Button Action: Navigate
+- Target Uri: /settings/forms
