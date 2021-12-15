@@ -10,7 +10,7 @@ Before you can get start you will need to make sure that you have the following 
 - **Backend:** Microsoft Visual Studio, .NET Core
 - **Admin and Public Portals:** Visual Studio Code, NodeJS, Python, Sass
 
-## Downloading The Artificats
+## Downloading The Artifacts
 
 This step will show you how you can download all the repositories you'll need to get Shesha up and running. You can click the following link in order to download the required artifacts.
 

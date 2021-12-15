@@ -18,3 +18,7 @@ In this tutorial, you learn how to:
 
 At the end of this tutorial you will have a membership management app this will allow you to capture new membership details using your designed forms and saving them in your database.
 
+You can run the "SheshaMMSampleAdminPortal" app that you set up in the [Quickstart Guide](https://shesha-docs.readthedocs.io/en/latest/guides/00-quickstart/) and then login. It shoulld be completely blank i.e. no menus or data in the content window.
+
+![blank admin portal](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/membership-management-app-1.png?raw=true)
+
