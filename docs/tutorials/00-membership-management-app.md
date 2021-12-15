@@ -110,41 +110,14 @@ To add your menu items click the "Add New Item" button. This will add a new menu
 
 The only difference for these menu items is that you will need to add a button action and it's target Uri. Use the properties below to create your menus.
 
-**Reports**
-
-- Item Type: Button
-- Title: Reports
-- Tooltip: Reports
-- Icon: LineChartOutlined
-- Button Action: Navigate
-- Target Uri: /reports
-
-**Members**
-
-- Item Type: Button
-- Title: Members
-- Tooltip: Members
-- Icon: UserOutlined
-- Button Action: Navigate
-- Target Uri: /members
-
-**Areas**
-
-- Item Type: Button
-- Title: Areas
-- Tooltip: Areas
-- Icon: GlobeOutlined
-- Button Action: Navigate
-- Target Uri: /areas
-
-**Forms**
-
-- Item Type: Button
-- Title: Forms
-- Tooltip: Forms
-- Icon: FormOutlined
-- Button Action: Navigate
-- Target Uri: /settings/forms
+|               | Reports           | Members      | Areas         | Forms           |
+|---------------|-------------------|--------------|---------------|-----------------|
+| Item Type     | Button            | Button       | Button        | Button          |
+| Title         | Reports           | Members      | Areas         | Forms           |
+| Tooltips      | Reports           | Members      | Areas         | Forms           |
+| Icon          | LineChartOutlined | UserOutlined | GlobeOutlined | FormOutlined    |
+| Button Action | Navigate          | Navigate     | Navigate      | Navigate        |
+| Target Uri    | /reports          | /members     | /areas        | /settings/forms |
 
 
 ![menu item details](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/membership-management-app-10.png?raw=true)
@@ -159,3 +132,5 @@ Once you are done you can click "Ok" to save the menu changes. You will need to 
 
 
 ![completed menu](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/membership-management-app-11.png?raw=true)
+
+Congratulations you have successfully added your menus.
