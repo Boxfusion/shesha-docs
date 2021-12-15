@@ -75,7 +75,17 @@ You can now run the app. If you have set everything up correctly you should see 
 
 ### Getting Started
 
-In this tutorial we will introduce you to the Admin Portal app and how to get it set up. 
+In this tutorial we will introduce you to the Admin Portal app and how to get it set up.
+
+### Change backend url
+
+Before you can run the app you will need to change the backend URL so that it points to your local backend that you have running. You can search for the **BASE_URL** property and set it to your backend URL e.g. localhost:0000. The values to change can be found in the following files:
+
+- restful-react.config.js
+- static/config/web.config.js
+- utils/configManager.ts
+
+By default the URL is set to "https://shesha-mmsample-backend-dev.azurewebsites.net"
 
 ### Run the app
 
