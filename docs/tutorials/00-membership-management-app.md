@@ -145,3 +145,17 @@ The only difference for these menu items is that you will need to add a button a
 - Icon: FormOutlined
 - Button Action: Navigate
 - Target Uri: /settings/forms
+
+
+![menu item details](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/membership-management-app-10.png?raw=true)
+
+## Editing and Ordering Menu Items
+
+You can click on the gray handle bar of a group or menu item in order to open up its properties so you can edit them or click and drag using the gray handle bar in order to reorder or organise the menu items.
+
+You can click the "Forms" menu item and drag it into the "Configuration" group.
+
+Once you are done you can click "Ok" to save the menu changes. You will need to confirm the menu changes again closing the "Edit Mode" window. This will open the "Close Edit Mode" confirmation screen where you can cliick "Ok"
+
+
+![completed menu](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/membership-management-app-11.png?raw=true)
