@@ -4,7 +4,7 @@ This quickstart guide will help you get setup with Shesha. The starter projects 
 
 ## Requirements
 
-Before you can get start you will need to make sure that you have the following development tools installed on your machine.
+Before you can get started you will need to make sure that you have the following development tools installed on your machine.
 
 - **Database:** Microsoft SQL Server Management Studio v18.10, Microsoft SQL Server 2019
 - **Backend:** Microsoft Visual Studio, .NET Core
