@@ -141,3 +141,159 @@ InputComponent,
 ```
 
 Once this is done, we can save all the files and we can navigate to 'TestFormsDesigner' on storybook to see the component added to the Builder Widgets.
+
+
+## Render the components properties in the properties window
+
+Next step is to have some properties added to the component so when we add it to the form designer we can customise some properties. 
+
+Lets begin this by creating a new file inside the 'inputComponent' folder located within the 'formDesigner' components. 
+
+``` shell
+settingsForm.json
+```
+
+Within the settingsForm.json lets add the following code:
+
+``` shell
+{
+  "components": [
+    {
+      "id": "38f7aff0-756e-4282-a5c4-39748219a225",
+      "type": "sectionSeparator",
+      "name": "separator1",
+      "parentId": "root",
+      "label": "Display"
+    },
+    {
+      "id": "de0f8d68-de60-4ec6-9290-d9cfffa5bcbc",
+      "type": "textField",
+      "name": "name",
+      "parentId": "root",
+      "label": "Name",
+      "required": true,
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "id": "5e97d29b-9a47-4ca3-9990-7020de1de392",
+      "type": "textField",
+      "name": "title",
+      "parentId": "root",
+      "label": "Title",
+      "required": true,
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "id": "c8a2b2ce-3aef-46f9-a1f6-1c04417e7d20",
+      "type": "iconPicker",
+      "name": "prefix",
+      "label": "Prefix Icon",
+      "labelAlign": "right",
+      "parentId": "root",
+      "hidden": false,
+      "customVisibility": "",
+      "settingsValidationErrors": []
+    },
+    {
+      "id": "03e87c35-dc6a-4095-9492-2eede94f8dbe",
+      "type": "iconPicker",
+      "name": "suffix",
+      "label": "Suffix Icon",
+      "labelAlign": "right",
+      "parentId": "root",
+      "hidden": false,
+      "customVisibility": "",
+      "settingsValidationErrors": []
+    },
+    {
+      "id": "ba5a5ebd-55ed-4c4c-adc7-35c591c8fd4e",
+      "type": "sectionSeparator",
+      "name": "separatorVisibility",
+      "parentId": "root",
+      "label": "Visibility"
+    },
+    {
+      "id": "c6f46a6a-4a14-4aa3-af3d-938e2a24dee3",
+      "type": "codeEditor",
+      "name": "customVisibility",
+      "label": "Custom Visibility",
+      "labelAlign": "right",
+      "parentId": "root",
+      "hidden": false,
+      "customVisibility": null,
+      "description": "Enter custom visibility code.  You must return true to show the component. The global variable data is provided, and allows you to access the data of any form component, by using its API key.",
+      "validate": {},
+      "settingsValidationErrors": []
+    }
+  ],
+  "formSettings": {
+    "layout": "horizontal",
+    "colon": true,
+    "labelCol": {
+      "span": 5
+    },
+    "wrapperCol": {
+      "span": 13
+    },
+    "displayName": "DEFAULT_FORM_SETTINGS",
+    "__docgenInfo": {
+      "description": "Default form settings",
+      "displayName": "DEFAULT_FORM_SETTINGS",
+      "props": {}
+    }
+  }
+}
+
+```
+
+Once this is done, we can save an navigate back to the 'index.tsx' file located within the same folder. 
+
+Replace all code with the following: 
+
+``` shell
+import { IToolboxComponent } from '../../../../interfaces';
+import { FormMarkup, IConfigurableFormComponent } from '../../../../providers/form/models';
+import { BgColorsOutlined } from '@ant-design/icons';
+import settingsFormJson from './settingsForm.json';
+import React from 'react';
+import { validateConfigurableComponentSettings } from '../../../../providers/form/utils';
+import InputComponent, { IInputComponentProps } from '../../../inputComponent';
+import ShaIcon from '../../../shaIcon';
+import { useForm } from '../../../../providers';
+import _ from 'lodash';
+
+const settingsForm = settingsFormJson as FormMarkup;
+
+interface IStatisticComponentProps extends IInputComponentProps, IConfigurableFormComponent {}
+
+const ShaInputComponent: IToolboxComponent<IStatisticComponentProps> = {
+  type: 'InputComponent',
+  name: 'InputComponent',
+  icon: <BgColorsOutlined />,
+  factory: (model: IStatisticComponentProps) => {
+    const { prefix, suffix, name } = model;
+    const { formData } = useForm();
+
+    const getDisplayValue = (prop: string) => {
+      if (!formData || !prop) return undefined;
+
+      const value = _.get(formData, model?.name);
+
+      return typeof value === 'object' ? null : _.get(formData, model?.name);
+    };
+
+    return <InputComponent />;
+  },
+  settingsFormMarkup: settingsForm,
+  validateSettings: model => validateConfigurableComponentSettings(settingsForm, model),
+};
+
+export default ShaInputComponent;
+
+```
+
+Save your changes and navigate back to the TestFormDesigner on Storybook, add your InputCOmponent and you will see properties on the right appear now. 
