@@ -14,36 +14,57 @@ Lets begin by creating a new folder in React JS components which we'll call 'inp
 
 We'll need to create two new files within the newly created folder. 
 
-=== "index.tsx"
 ``` shell
-title: 'Components/ActionButtonGroup',
+index.tsx,
 ```
 
 and
 
-=== "index.stories.tsx"
 ``` shell
-title: 'Components/ActionButtonGroup',
+index.stories.tsx,
 ```
 
-![shesha-reactjs-duplicatingComponent screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/shesha-reactjs-duplicatingComponent.PNG?raw=true)
+Now lets navigate to the 'index.tsx' file within the newly created component. We will add the following code to the file:
 
-Now lets navigate to the 'index.stories.tsx' file within the newly duplicated component. We will change the title of this component from
-
-=== "Old Title"
 ``` shell
-title: 'Components/ActionButtonGroup',
-```
- to 
+import React, { FC } from 'react';
+import { Input } from 'antd';
 
-=== "New Title"
+export interface IInputComponentProps {}
+
+/**
+A Basic Input Component for Documentation
+ */
+
+export const InputComponent: FC<IInputComponentProps> = ({}) => {
+  return <Input placeholder="Basic usage" />;
+};
+
+export default InputComponent;
+```
+
+Once that is done we will add the following code to the 'index.stories.tsx' file: 
+
 ``` shell
-title: 'Components/ActionButtonGroupDocumentationTest',
+import React from 'react';
+import { Meta } from '@storybook/react/types-6-0';
+import { Story } from '@storybook/react';
+import InputComponent, { IInputComponentProps } from '.';
+
+export default {
+  title: 'Components/TestInputComponent',
+  component: InputComponent,
+  argTypes: {},
+} as Meta;
+
+// Create a master template for mapping args to render the Input component
+const Template: Story<IInputComponentProps> = args => <InputComponent {...args} />;
+
+// Reuse that template for creating different stories
+export const Basic = Template.bind({});
+Basic.args = {};
 ```
 
-lets save the document and you should see the terminal is now recompiling storybook.
-
-![shesha-reactjs-duplicatingComponent-Step2 screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/shesha-reactjs-duplicatingComponent-Step2.PNG?raw=true)
 
 If the terminal does not recompile then its likely that it is not running, to run it you can simply run the following command in your IDE terminal.
 
