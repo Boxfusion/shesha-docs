@@ -18,13 +18,17 @@ We'll need to create two new files within the newly created folder.
 index.tsx,
 ```
 
+
 and
+
 
 ``` shell
 index.stories.tsx,
 ```
 
+
 Now lets navigate to the 'index.tsx' file within the newly created component. We will add the following code to the file:
+
 
 ``` shell
 import React, { FC } from 'react';
@@ -66,20 +70,13 @@ Basic.args = {};
 ```
 
 
-If the terminal does not recompile then its likely that it is not running, to run it you can simply run the following command in your IDE terminal.
+Now Lets save both files and run the following command:
+
 
 ``` shell
 npm run storybook
 ```
 
-We can now navigate back to StoryBook which will be running in your browser and look for our newly created component. 
 
-![shesha-reactjs-storybook-creating-component screenshot](https://github.com/Boxfusion/shesha-docs/blob/main/docs/assets/shesha-reactjs-storybook-creating-component.PNG?raw=true)
+We can now navigate to Storybook and see the following component has successfully been created and is being displayed within Storybook. 
 
-Congratulations, you have just successfully created a new component with Shesha ReactJS and Storybook! 
-
-## Connecting to APIs
-
-## Creating a Page
-
-## Contributing to the core framework
