@@ -80,3 +80,64 @@ npm run storybook
 
 We can now navigate to Storybook and see the following component has successfully been created and is being displayed within Storybook. 
 
+## Render the component in the forms toolbar (Builder Widgets)
+
+These next steps will help you create the Builder Widget, link it to your created component and display it in the forms toolbar.
+
+Lets begin by creating a new folder in the following location: 
+
+
+``` shell
+components/formDesigner/components
+```
+
+We'll name the folder "inputComponent" and create a new file within the folder titled "index.tsx".
+
+Lets paste the following code into the newly created index.tsx file.
+
+``` shell
+import { IToolboxComponent } from '../../../../interfaces';
+import { IConfigurableFormComponent } from '../../../../providers/form/models';
+import { BgColorsOutlined } from '@ant-design/icons';
+import React from 'react';
+import InputComponent, { IInputComponentProps } from '../../../inputComponent';
+import _ from 'lodash';
+
+interface IStatisticComponentProps extends IInputComponentProps, IConfigurableFormComponent {}
+
+const ShaInputComponent: IToolboxComponent<IStatisticComponentProps> = {
+  type: 'InputComponent',
+  name: 'InputComponent',
+  icon: <BgColorsOutlined />,
+  factory: (model: IStatisticComponentProps) => {
+    const {} = model;
+
+    return <InputComponent />;
+  },
+};
+
+export default ShaInputComponent;
+
+```
+Once we have pasted this and saved it, its now time to navigate to the toolboxComponents.ts file which can be located here:
+
+
+``` shell
+src\providers\form\defaults\toolboxComponents.ts
+```
+
+Once at the toolboxCOmponent file we'll need to add the following two lines of code, the first line we add the import to the imports section.
+
+
+``` shell
+import InputComponent from '../../../components/formDesigner/components/inputComponent';
+```
+
+This next line we add in the 'Basic' area just underneath the last item in the array.
+
+
+``` shell
+InputComponent,
+```
+
+Once this is done, we can save all the files and we can navigate to 'TestFormsDesigner' on storybook to see the component added to the Builder Widgets.
